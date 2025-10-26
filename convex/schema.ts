@@ -8,7 +8,7 @@ export default defineSchema({
         fullname: v.string(),
         email: v.string(),
         bio: v.optional(v.string()),
-        image: v.optional(v.string()),
+        image: v.string(),
         followers: v.number(),
         followings: v.number(),
         posts: v.number(),
